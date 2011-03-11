@@ -1,0 +1,21 @@
+sqlite:
+  :adapter: sqlite
+  :database: vendor/plugins/token_based_content/test/token_based_content_plugin.sqlite.db
+
+sqlite3:
+  :adapter: sqlite3
+  :database: vendor/plugins/token_based_content/test/token_based_content_plugin.sqlite3.db
+
+postgresql:
+  :adapter: postgresql
+  :username: postgres
+  :password: postgres
+  :database: token_based_content_plugin_test
+  :min_messages: ERROR
+
+mysql:
+  :adapter: mysql
+  :host: localhost
+  :username: root
+  :password: password
+  :database: token_based_content_plugin_test

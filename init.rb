@@ -1,1 +1,1 @@
-# Include hook code here
+require "token_based_content"
